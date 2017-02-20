@@ -1,0 +1,164 @@
+.frontpage {	
+	background: #ebebeb;
+	z-index: 3;	
+}
+
+.middlepage {	
+	background-color: #cccccc;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 2;
+}
+
+.backpage {	
+	background-color: #acacac;
+	margin-left: 40px;
+	margin-top: 40px;
+	z-index: 1;	
+}
+
+.frontpage, .middlepage, .backpage {
+	width: 520px;
+	height: 745px;
+	border: 2px solid;
+	position: absolute;	
+}
+
+.mainpage {
+	position: relative;	
+	margin-left: 30%;
+    margin-right: 30%;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	height: 2000px;
+}
+
+.leftimg {
+	float: left;
+	margin-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 2px;
+	padding-right: 20px;
+	width: 206px;
+	height: 110px;
+
+}
+
+.rightimg {
+	float: right;
+	width, height: 140px; 
+	margin-right: 30px;
+}
+
+h1 {
+	font-size: 24px;
+	margin-top: 40px; 
+	font-weight: normal;
+}
+
+p {
+	font-size: 12px;
+}
+
+h1, p, h2 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+h2	{
+	font-weight: normal;
+	margin-top: 30px;	
+	font-size: 18px;
+}
+
+.cssjokes div img {
+	width: 190px;
+	height: 90px;
+}
+
+.joke1 {
+	position: absolute; 
+    bottom: 195px; 
+    left: 30px;   
+}
+
+.joke2 {
+	position: absolute;
+	bottom: 90px;
+	left: 30px;
+}
+
+.joke3 {
+	position: absolute;
+	bottom: 195px;
+	right: 30px;
+}
+
+.joke4 {
+	position: absolute;
+	bottom: 90px;
+	right: 30px;
+}
+
+.bottomtext {	
+	font-size: 9px;  	
+  	text-align: center;  	
+  	margin-left: 33px;
+	margin-right: 33px;
+	margin-top: 240px;
+}
+
+.frontbookmark, .middlebookmark, .backbookmark {
+	position: absolute;
+	width: 114px;
+	height: 35px;
+	border: 2px solid black;
+	display: inline-block;
+	float: right;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.frontbookmark {
+	background-color: #f68e56;
+	top: 40px;
+	left: 491px;
+}
+
+.middlebookmark {
+	background-color: #39b54a;
+	top: 43px;
+	left: 455px;
+}
+
+.backbookmark {
+	background-color: #00aeef;
+	top: 45px;
+	left: 420px;	
+}
+
+.links {
+	border: 1px solid;
+	background-color: #fbaf5d;
+	right: 0%;
+	top: 90%;
+	height: 70px;
+	width: 90px;
+	position: fixed;
+	text-align: center;
+}
+
+.share {
+	margin: auto;
+	font-size: 16px;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+.piclink a img {
+	width: 23px;
+  	display: inline-block;
+}
+
